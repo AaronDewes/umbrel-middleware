@@ -45,4 +45,4 @@ jobs:
                                   --cache-to "type=local,dest=/tmp/.buildx-cache" \
                                   --platform linux/amd64,linux/arm64,linux/arm/v7 \
                                   --tag aarondewes/umbrel-middleware:$BRANCH \
-                                  --output "type=registry" ./
+                                  ./
