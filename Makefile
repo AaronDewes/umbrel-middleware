@@ -12,5 +12,5 @@ install-dev:
 lint:
 	eslint .
 
-yarn:
-	npm test
+test:
+	yarn test
